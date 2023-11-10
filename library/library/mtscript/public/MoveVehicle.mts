@@ -11,9 +11,9 @@
 [h: CenterY= CurrentY + Height/2]
 [h: CurrentFacing = -(getTokenRotation()+90)]
 
-[r: MoveX = CenterX-OldCenterX]
-[r: MoveY = CenterY- OldCenterY]
-[r: Rotation = CurrentFacing - OldFacing]
+[h: MoveX = CenterX-OldCenterX]
+[h: MoveY = CenterY- OldCenterY]
+[h: Rotation = CurrentFacing - OldFacing]
 
 [h: setProperty("OldCenterX",CenterX)]
 [h: setProperty("OldCenterY",CenterY)]

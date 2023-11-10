@@ -1,1 +1,17 @@
 This add-on allows you to make vehicle token that can move other tokens around
+
+HOW TO USE
+
+1) make a < Vehicle > propertyType for your campaign
+2) make a campaign macro named <MakeVehicle> with content: [macro("MakeVehicle@lib:Vehicle"):0]
+3) make a campaign macro named <BoardVehicle> with content: [macro("BoardVehicle@lib:Vehicle"):0]
+4) make a campaign macro named <LeaveVehicle> with content: [macro("LeaveVehicle@lib:Vehicle"):0]
+
+5) select any token and call the <MakeVehicle> macro, then call the <Reset vehicle> macro that was added.
+    this token is now a vehicle with its curent position as original position. If you move the token and call the <Move Vehicle> macro
+    all token that are "boarded" will be moved and rotated to match the current position of the Vehicle token
+
+6) to make another token "board" a vehicle, call the <BoardVehicle> macro. For now a token can only board a single vehicle, if you board
+    another one, you automatically leave the first one
+
+7)To make a token "leave" a vehicle, call the <LeaveVehicle> macro

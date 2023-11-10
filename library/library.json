@@ -1,0 +1,14 @@
+{
+  "name": "lib:Vehicle",
+  "version": "0.1.0",
+  "website": "",
+  "gitUrl": "",
+  "authors": ["Fabrice Valade"],
+  "license": "GPL-3.0",
+  "namespace": "Vehicle",
+  "description": "This Add-on requires a bit of token setup, but allow you to set up vehicles token that will allow you to move boarded tokens",
+  "shortDescription": "An Add-on to make vehicles",
+  "allowsUriAccess": true,
+  "licenseFile": "license.txt",
+  "readMeFile": "README"
+}
